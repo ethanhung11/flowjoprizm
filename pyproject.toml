@@ -1,0 +1,32 @@
+[project]
+name = "flowjoprizm"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "ehung", email = "ethanhung11@gmail.com" }
+]
+dependencies = [
+    "pandas>=2.2",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+    "scipy>=1.15",
+    "statannotations>=0.7.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "notebook>=7.4.3",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flow"]
