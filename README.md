@@ -14,6 +14,7 @@ Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFl
 See `sample.ipynb` for an example usage!
 
 ## Installation
+* I use Rye for lightweight package management.
 
 **Rye:**
 ```bash
