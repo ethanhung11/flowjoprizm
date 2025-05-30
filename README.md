@@ -2,7 +2,7 @@
 
 Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFlowJo()` and `flow_plot()`.
 
-## Installation
+## TLDR
 
 1. Install Python.
     1. (optional) Install Rye. I recommend this over Conda unless you're running a complex environment.
@@ -10,6 +10,10 @@ Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFl
 3. Save your data following the directory structure (see Recommended Usage).
 4. Run `processFlowJo()` to prepare your data for plotting.
 5. Run `flow_plot()` to plot relevant populations. There are additional parameters for plotting adjustments. More will be added eventually.
+
+See `sample.ipynb` for an example usage!
+
+## Installation
 
 **Rye:**
 ```bash
