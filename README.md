@@ -3,6 +3,11 @@
 Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFlowJo()` and `flow_plot()`.
 
 ## Installation
+* I use Rye for lightweight package management.
+Rye:
+```bash
+rye add flowjoprizm --git https://github.com/ethanhung11/flowjoprizm.git
+```
 Pip
 ```bash
 pip install flowjoprizm @ git+https://github.com/ethanhung11/flowjoprizm.git
@@ -11,10 +16,6 @@ Conda:
 ```bash
 conda install git pip
 pip install flowjoprizm @ git+https://github.com/ethanhung11/flowjoprizm.git
-```
-Rye:
-```bash
-rye add flowjoprizm --git https://github.com/ethanhung11/flowjoprizm.git
 ```
 
 ## Recommended Usage
