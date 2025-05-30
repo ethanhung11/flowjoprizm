@@ -4,15 +4,16 @@ Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFl
 
 ## Installation
 * I use Rye for lightweight package management.
-Rye:
+
+**Rye:**
 ```bash
 rye add flowjoprizm --git https://github.com/ethanhung11/flowjoprizm.git
 ```
-Pip
+**Pip:**
 ```bash
 pip install flowjoprizm @ git+https://github.com/ethanhung11/flowjoprizm.git
 ```
-Conda:
+**Conda:**
 ```bash
 conda install git pip
 pip install flowjoprizm @ git+https://github.com/ethanhung11/flowjoprizm.git
