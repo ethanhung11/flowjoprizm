@@ -3,7 +3,13 @@
 Prism analysis dupe! Put your data in `./data/[experiment]`, then run `processFlowJo()` and `flow_plot()`.
 
 ## Installation
-* I use Rye for lightweight package management.
+
+1. Install Python.
+    1. (optional) Install Rye. I recommend this over Conda unless you're running a complex environment.
+2. Install this package (`flowjoprizm`).
+3. Save your data following the directory structure (see Recommended Usage).
+4. Run `processFlowJo()` to prepare your data for plotting.
+5. Run `flow_plot()` to plot relevant populations. There are additional parameters for plotting adjustments. More will be added eventually.
 
 **Rye:**
 ```bash
@@ -20,7 +26,7 @@ pip install flowjoprizm @ git+https://github.com/ethanhung11/flowjoprizm.git
 ```
 
 ## Recommended Usage
-Gate your FlowJo populations, then save the counts. Data must saved in one of the following directories structures:
+Gate your FlowJo populations, then save the counts (or any other statistic!). Data must saved in one of the following directories structures:
 ```
 .
 └── data
