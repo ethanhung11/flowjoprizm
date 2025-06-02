@@ -135,7 +135,6 @@ markupsafe==3.0.2
     # via jinja2
     # via nbconvert
 matplotlib==3.10.3
-    # via flowjoprizm
     # via seaborn
     # via statannotations
 matplotlib-inline==0.1.7

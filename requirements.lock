@@ -19,7 +19,6 @@ fonttools==4.58.1
 kiwisolver==1.4.8
     # via matplotlib
 matplotlib==3.10.3
-    # via flowjoprizm
     # via seaborn
     # via statannotations
 numpy==2.2.6

@@ -7,7 +7,6 @@ authors = [
 ]
 dependencies = [
     "pandas>=2.2",
-    "matplotlib>=3.10",
     "seaborn>=0.13",
     "scipy>=1.15",
     "statannotations>=0.7.2",
